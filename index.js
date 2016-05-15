@@ -113,7 +113,7 @@
 
     // Provide the compiled function source as a convenience for precompilation.
     var argument = settings.variable || 'obj';
-    template.source = 'function(' + argument + '){\n' + source + '}';
+    template.source = 'function(' + argument + '){\n' + source + '\n}';
 
     return template;
   };
